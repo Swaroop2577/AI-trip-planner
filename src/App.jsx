@@ -1,7 +1,7 @@
 
 import './App.css'
 import { Button } from "@/components/ui/button"
-import Hero from './components/ui/custom/hero'
+import Hero from './components/ui/custom/Hero'
 
 function App() {
  
