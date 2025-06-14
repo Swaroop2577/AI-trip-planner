@@ -84,7 +84,9 @@ querySnapshot.forEach((doc) => {
               ? <div className='col-span-2 md:col-span-3 flex flex-col items-center justify-center h-[220px] w-full bg-white border rounded-xl'>
                   <h3 className='text-xl font-semibold mb-2'>No trips found</h3>
                   <p className='text-gray-500 mb-4'>You haven't created any trips yet.</p>
-                  <Button onClick={() => navigate('/create-trip')}>Create a Trip</Button>
+                  <Link to={'/create-trip'} >
+                  <Button>Create a Trip</Button>
+                  </Link>
                 </div>
               : [1,2,3,4,5,6].map((item, index) => (
                   <div key={index} className='h-[220px] w-full bg-slate-200 animate-pulse rounded-xl'></div>
