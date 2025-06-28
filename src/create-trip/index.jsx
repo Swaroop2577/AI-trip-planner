@@ -10,6 +10,7 @@ import { generateTravelPlan } from '../service/AIMODEL';
 import { FcGoogle } from "react-icons/fc";
 import { AiOutlineLoading3Quarters } from "react-icons/ai";
 import GooglePlacesAutocomplete from 'react-google-places-autocomplete';
+import Footer from '@/view-trip/[tripId]/components/Footer';
 import {
   Dialog,
   DialogClose,
@@ -248,7 +249,9 @@ onChange:(v)=>{setPlace(v);handleInputChange('location',v)}
   </Button> 
 
 </div>
-    
+     <div className="pb-5">
+    <Footer/>
+    </div>
      </div>
   )
 }

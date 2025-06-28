@@ -54,7 +54,7 @@ window.location.reload();
   return (
     <div className='p-2 shadow-sm flex justify-between items-center px-5 mt-[-35px]'>
     <a href="/" className='cursor-pointer hover:scale-105'>
-    <img src='/logo.svg'/>
+    <img src="/logo.svg" className='w-full pt-2.5' />
     </a>
     <div>
       {user?

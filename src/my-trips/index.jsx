@@ -6,6 +6,7 @@ import { db } from '@/service/firebaseConfig';
 import UserTripCardItem from './UserTripCardItem';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
+import Footer from '@/view-trip/[tripId]/components/Footer';
 const MyTrips = () => {
 
 const navigation = useNavigation();
@@ -94,6 +95,10 @@ querySnapshot.forEach((doc) => {
           )
     }
   </div>
+ <div className="pb-5">
+    <Footer/>
+    </div>
+
 </div>
 
 
