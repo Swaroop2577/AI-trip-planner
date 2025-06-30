@@ -249,7 +249,8 @@ onChange:(v)=>{setPlace(v);handleInputChange('location',v)}
   </Button> 
 
 </div>
-     <div className="pb-5">
+
+      <div className="pb-5">
     <Footer/>
     </div>
      </div>
