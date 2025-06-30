@@ -27,15 +27,11 @@ tripId&&GetTripData();
     }
    }
   return (
-   
     <div className='p-10 md:px-20 lg:px-44 xl:px-54'>
       <InfoSection trip={trip}/>
       <Hotels trip={trip}/>
     <PlacesToVisit trip={trip}/>
-
 <Footer trip={trip} />
-
-
     </div>
   )
 }
